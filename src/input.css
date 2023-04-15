@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .social-media-btn {
+      @apply w-7 brightness-0 invert-[1];
+    }
+
+    .social-media-btn:hover {
+        filter: invert(70%) sepia(70%) saturate(899%) hue-rotate(245deg) brightness(96%) contrast(100%);
+    }
+
+    button {
+        transition: .3s ease;
+    }
+
+    h2 {
+        word-spacing: -.1rem;
+    }
+
+    main > p {
+        word-spacing: .09rem;
+    }
+
+    .attribution {
+        color: #eee;
+        width: 100%;
+        text-align: center;
+        font-size: .75rem;
+        text-shadow: rgba(255, 255, 255, .15);
+        display: flex;
+        justify-content: center;
+        gap: .3rem;
+        align-items: center;
+    }
+    
+    .attribution, a {
+        transition: .5s ease;
+    }
+
+    .attribution a {
+        display: inline-block;
+        width: max-content;
+        position: relative;
+    }
+
+    a::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: white;
+        transition: all 1s;
+        z-index: -1;
+        transform: rotate(-2deg);
+    }
+    
+    .attribution a:hover {
+        padding: .3rem;
+    }
+    
+    .attribution a:hover::before {
+        width: 100%;
+    }
+
+}

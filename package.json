@@ -1,0 +1,13 @@
+{
+  "name": "huddle-landing-page-with-single-introductory-section-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "0xabdulkhalid",
+  "license": "MIT",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./public/output.css"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
