@@ -51,7 +51,7 @@
 
 - |||
   | :----- | :----- |
-  | Solution URL: | [[ Yet to be posted ⌛ ]](#links) |
+  | Solution URL: | [Huddle Single Introductory Section 🎯 [ SEMANTIC HTML - TAILWIND CSS ]](https://www.frontendmentor.io/solutions/huddle-single-introductory-section-semantic-html-tailwind-css-NijZqsJ0kb) |
   | Live Site URL: | [https://0xabdulkhalid.github.io/huddle-landing-page-with-single-introductory-section/](https://0xabdulkhalid.github.io/huddle-landing-page-with-single-introductory-section/) |
   |||
 
