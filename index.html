@@ -42,9 +42,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      as="style"
       href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap"
+      />
+    </noscript>
   </head>
   <body
     class="min-h-screen grid place-items-center relative pb-16 text-[.92rem] bg-primary text-white font-poppins bg-[url('./images/bg-mobile.svg')] bg-[length:100%] bg-no-repeat md:bg-[url('./images/bg-desktop.svg')] md:p-0 md:bg-cover lg:text-base lg:bg-[-2rem_0]"
@@ -55,6 +68,8 @@
           src="./images/logo.svg"
           class="w-[8.4rem] lg:w-[13.75rem]"
           alt=""
+          width="264" 
+          height="49pt"
         />
       </a>
     </header>
@@ -69,7 +84,12 @@
       <div
         class="max-w-[30rem] mx-9 lg:row-span-4 lg:max-w-none lg:w-[105%] lg:m-0 lg:ml-[11.5rem] lg:mt-9"
       >
-        <img src="./images/illustration-mockups.svg" alt="" />
+        <img 
+          src="./images/illustration-mockups.svg" 
+          alt="" 
+          width="709" 
+          height="506" 
+        />
       </div>
 
       <h2
