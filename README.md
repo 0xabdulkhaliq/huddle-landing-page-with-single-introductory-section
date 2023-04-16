@@ -19,7 +19,7 @@
 <div align="center">
   <!-- Profiles -->
   <a href="https://www.frontendmentor.io/profile/0xabdulkhalid" target="_blank">
-    <img src="https://img.shields.io/badge/Profile-0xAbdulKhalid-eee?style=for-the-badge&logo=frontendmentor" alt="Abdul Khalid's Profile">
+    <img src="https://img.shields.io/badge/Profile-0xAbdulKhalid-fefefe?style=for-the-badge&logo=frontendmentor" alt="Abdul Khalid's Profile">
   </a> &nbsp;&nbsp;&nbsp;
 
   <!-- Status -->
@@ -55,6 +55,17 @@
   | Live Site URL: | [https://0xabdulkhalid.github.io/huddle-landing-page-with-single-introductory-section/](https://0xabdulkhalid.github.io/huddle-landing-page-with-single-introductory-section/) |
   |||
 
+
+<br>
+
+## Pagespeed Insights Score:
+
+- | Scored 99.125% on Pagespeed Insights |
+  | :-----: |
+  | <img src='./images/pagespeed-score.webp' alt='99.125% scored on pagespeed insights'> |
+  |  |
+  | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/analysis/https-0xabdulkhalid-github-io-huddle-landing-page-with-single-introductory-section/uksoqtv0ha?form_factor=mobile) to get live score |
+  |||
 
 <br>
 
